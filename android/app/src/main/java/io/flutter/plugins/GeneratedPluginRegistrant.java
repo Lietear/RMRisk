@@ -16,6 +16,6 @@ public final class GeneratedPluginRegistrant {
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     ShimPluginRegistry shimPluginRegistry = new ShimPluginRegistry(flutterEngine);
     flutterEngine.getPlugins().add(new io.flutter.plugins.pathprovider.PathProviderPlugin());
-      com.debut.sms_retriever.SmsRetrieverPlugin.registerWith(shimPluginRegistry.registrarFor("com.debut.sms_retriever.SmsRetrieverPlugin"));
+      com.babariviere.sms.SmsPlugin.registerWith(shimPluginRegistry.registrarFor("com.babariviere.sms.SmsPlugin"));
   }
 }

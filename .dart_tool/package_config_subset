@@ -106,10 +106,10 @@ process
 2.12
 file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.1/
 file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.1/lib/
-sms_retriever
-2.12
-file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/sms_retriever-1.0.0/
-file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/sms_retriever-1.0.0/lib/
+sms
+1.19
+file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/sms-0.2.4/
+file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/sms-0.2.4/lib/
 source_span
 2.12
 file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1/
