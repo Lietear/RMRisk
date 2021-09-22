@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
 import '../../../../constants.dart';
+import 'package:rmfilter/classifier.dart';
 
 class ChatInputField extends StatelessWidget {
-  const ChatInputField({
+  ChatInputField({
     Key? key,
   }) : super(key: key);
+
+  late TextEditingController _controller;
+  late Classifier _classifier;
+
+  void initState() {
+    _controller = TextEditingController();
+    _classifier = Classifier();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -46,17 +55,17 @@ class ChatInputField extends StatelessWidget {
                           hintText: "Type message",
                           border: InputBorder.none,
                         ),
+                        controller: _controller,
                       ),
                     ),
                     SizedBox(width: kDefaultPadding / 4),
-                    Icon(
-                      Icons.send,
-                      color: Theme.of(context)
-                          .textTheme
-                          .bodyText1!
-                          .color!
-                          .withOpacity(0.64),
-                    ),
+                    IconButton(
+                      onPressed: () {
+                        final text = _controller.text;
+                        final prediction = _classifier.classify(text);
+                      },
+                      icon: Icon(Icons.send),
+                    )
                   ],
                 ),
               ),

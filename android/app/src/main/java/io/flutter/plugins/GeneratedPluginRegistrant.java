@@ -27,5 +27,10 @@ public final class GeneratedPluginRegistrant {
     } catch(Exception e) {
       Log.e(TAG, "Error registering plugin sms, com.babariviere.sms.SmsPlugin", e);
     }
+    try {
+      flutterEngine.getPlugins().add(new com.tfliteflutter.tflite_flutter_plugin.TfliteFlutterPlugin());
+    } catch(Exception e) {
+      Log.e(TAG, "Error registering plugin tflite_flutter, com.tfliteflutter.tflite_flutter_plugin.TfliteFlutterPlugin", e);
+    }
   }
 }

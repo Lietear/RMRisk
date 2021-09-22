@@ -24,10 +24,10 @@ class BodyState extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: FutureBuilder(
-      future: fetchSMS(),
-      builder: (context, snapshot) {
-        return ListView.builder(
+      body: FutureBuilder(
+        future: fetchSMS(),
+        builder: (context, snapshot) {
+          return ListView.builder(
             itemCount: messages.length,
             itemBuilder: (context, index) {
               String type = "NONE)";
@@ -39,34 +39,37 @@ class BodyState extends State {
                 type = "Draft)";
               }
               return Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    child: ListTile(
-                      leading: Icon(
-                        Icons.markunread,
-                        color: kPrimaryColor,
-                      ),
-                      title: Text(messages[index].address + "(" + type + ""),
-                      subtitle: Text(
-                        messages[index].date.toString() +
-                            "\n" +
-                            messages[index].body,
-                        maxLines: 3,
-                        style: TextStyle(),
-                      ),
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ChatSCreen(
-                                    messages[index].address.toString(),
-                                    messages[index].body.toString())));
-                      },
+                padding: const EdgeInsets.all(8.0),
+                child: Card(
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.markunread,
+                      color: kPrimaryColor,
                     ),
-                  ));
-            });
-      },
-    ));
+                    title: Text(messages[index].address + "(" + type + ""),
+                    subtitle: Text(
+                      messages[index].date.toString() +
+                          "\n" +
+                          messages[index].body,
+                      maxLines: 3,
+                      style: TextStyle(),
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ChatSCreen(
+                                  messages[index].address.toString(),
+                                  messages[index].body.toString())));
+                    },
+                  ),
+                ),
+              );
+            },
+          );
+        },
+      ),
+    );
   }
 
   fetchSMS() async {
