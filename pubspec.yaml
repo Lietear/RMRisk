@@ -36,7 +36,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  sms: ^0.2.4
+  sms_maintained: ^0.2.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

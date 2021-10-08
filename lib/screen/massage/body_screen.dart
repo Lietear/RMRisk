@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sms/sms.dart';
+import 'package:sms_maintained/sms.dart';
 import 'dart:async';
 import 'package:rmfilter/screen/massage/chat/chat_screen.dart';
 
@@ -119,9 +119,10 @@ class BodyScreenState extends State {
                       context,
                       MaterialPageRoute(
                         builder: (context) => ChatSCreen(
-                          messages[index].address.toString(),
-                          messages[index].body.toString(),
-                        ),
+                            messages[index].address.toString(),
+                            messages[index].body.toString(),
+                            messages[index].id,
+                            messages[index].threadId),
                       ),
                     );
                   },

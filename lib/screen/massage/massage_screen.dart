@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rmfilter/screen/massage/components/body.dart';
 
-class MassageSCreen extends StatelessWidget {
+/*class MassageSCreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,4 +33,4 @@ class MassageSCreen extends StatelessWidget {
         ),
         elevation: 0.0);
   }
-}
+}*/

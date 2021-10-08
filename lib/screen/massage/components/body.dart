@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sms/sms.dart';
+import 'package:sms_maintained/sms.dart';
 import 'dart:async';
 import 'package:rmfilter/screen/massage/chat/chat_screen.dart';
 
@@ -13,6 +13,7 @@ class Body extends StatefulWidget {
 
 class BodyState extends State {
   SmsQuery query = new SmsQuery();
+
   List<SmsMessage> messages = [];
   @override
   initState() {
@@ -110,9 +111,10 @@ class BodyState extends State {
                       context,
                       MaterialPageRoute(
                         builder: (context) => ChatSCreen(
-                          messages[index].address.toString(),
-                          messages[index].body.toString(),
-                        ),
+                            messages[index].address.toString(),
+                            messages[index].body.toString(),
+                            messages[index].id,
+                            messages[index].threadId),
                       ),
                     );
                   },

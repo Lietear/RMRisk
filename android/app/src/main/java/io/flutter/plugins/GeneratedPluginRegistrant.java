@@ -25,7 +25,7 @@ public final class GeneratedPluginRegistrant {
     try {
       com.babariviere.sms.SmsPlugin.registerWith(shimPluginRegistry.registrarFor("com.babariviere.sms.SmsPlugin"));
     } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin sms, com.babariviere.sms.SmsPlugin", e);
+      Log.e(TAG, "Error registering plugin sms_maintained, com.babariviere.sms.SmsPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new com.tfliteflutter.tflite_flutter_plugin.TfliteFlutterPlugin());

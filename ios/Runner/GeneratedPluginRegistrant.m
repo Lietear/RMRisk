@@ -12,10 +12,10 @@
 @import path_provider;
 #endif
 
-#if __has_include(<sms/SmsPlugin.h>)
-#import <sms/SmsPlugin.h>
+#if __has_include(<sms_maintained/SmsPlugin.h>)
+#import <sms_maintained/SmsPlugin.h>
 #else
-@import sms;
+@import sms_maintained;
 #endif
 
 #if __has_include(<tflite_flutter/TfliteFlutterPlugin.h>)

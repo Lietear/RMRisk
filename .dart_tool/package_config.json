@@ -182,8 +182,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "sms",
-      "rootUri": "file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/sms-0.2.4",
+      "name": "sms_maintained",
+      "rootUri": "file:///C:/Users/akara/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/sms_maintained-0.2.5",
       "packageUri": "lib/",
       "languageVersion": "1.19"
     },
@@ -260,7 +260,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-09-23T10:17:48.151283Z",
+  "generated": "2021-10-08T14:53:28.961138Z",
   "generator": "pub",
   "generatorVersion": "2.14.2"
 }

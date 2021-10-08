@@ -8,10 +8,6 @@
         "source": "C:\\Users\\akara\\AndroidStudioProjects\\rmfilter\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\akara\\AndroidStudioProjects\\rmfilter\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
-        "source": "C:\\Users\\akara\\AndroidStudioProjects\\rmfilter\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
-    },
-    {
         "merged": "C:\\Users\\akara\\AndroidStudioProjects\\rmfilter\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\akara\\AndroidStudioProjects\\rmfilter\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },

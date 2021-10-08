@@ -5,9 +5,9 @@ INJECTED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main
 INJECTED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main\AndroidManifest.xml:1:1-41:12
 INJECTED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main\AndroidManifest.xml:1:1-41:12
-MERGED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:path_provider] C:\Users\akara\AndroidStudioProjects\rmfilter\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:tflite_flutter] C:\Users\akara\AndroidStudioProjects\rmfilter\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\akara\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\akara\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\akara\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -96,12 +96,12 @@ uses-sdk
 INJECTED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\main\AndroidManifest.xml
-MERGED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] C:\Users\akara\AndroidStudioProjects\rmfilter\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] C:\Users\akara\AndroidStudioProjects\rmfilter\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:tflite_flutter] C:\Users\akara\AndroidStudioProjects\rmfilter\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:tflite_flutter] C:\Users\akara\AndroidStudioProjects\rmfilter\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\akara\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\akara\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\akara\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -141,26 +141,26 @@ ADDED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\debug\A
 	android:name
 		ADDED from C:\Users\akara\AndroidStudioProjects\rmfilter\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_SMS
-ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-64
+		ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.SEND_SMS
-ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
+ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-64
+		ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-70
+ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-70
 	android:name
-		ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-67
+		ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-67
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-75
+ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-72
+		ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-72
 uses-permission#android.permission.READ_CONTACTS
-ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-72
+ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-72
 	android:name
-		ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-69
+		ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-69
 uses-permission#android.permission.READ_PROFILE
-ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71
+ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from [:sms] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-68
+		ADDED from [:sms_maintained] C:\Users\akara\AndroidStudioProjects\rmfilter\build\sms_maintained\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-68
