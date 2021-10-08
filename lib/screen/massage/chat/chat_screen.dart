@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:rmfilter/constants.dart';
 import 'package:rmfilter/screen/massage/chat/conponents/body.dart';
 
 class ChatSCreen extends StatelessWidget {
@@ -17,7 +16,7 @@ class ChatSCreen extends StatelessWidget {
 
   AppBar buildAppbar() {
     return AppBar(
-      backgroundColor: kPrimaryColor,
+      backgroundColor: Colors.black,
       title: Row(children: [
         Column(
           children: [Text(address)],

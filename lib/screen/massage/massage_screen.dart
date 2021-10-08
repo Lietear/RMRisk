@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:rmfilter/constants.dart';
 import 'package:rmfilter/screen/massage/components/body.dart';
 
 class MassageSCreen extends StatelessWidget {
@@ -10,7 +9,7 @@ class MassageSCreen extends StatelessWidget {
       body: Body(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: kPrimaryColor,
+        backgroundColor: Colors.black,
         child: Icon(
           Icons.email,
           color: Colors.white,
@@ -21,10 +20,17 @@ class MassageSCreen extends StatelessWidget {
 
   AppBar buildAppBar() {
     return AppBar(
-      backgroundColor: kPrimaryColor,
-      automaticallyImplyLeading: false,
-      title: Text("Massage"),
-      actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
-    );
+        backgroundColor: Colors.black,
+        leading: IconButton(
+          icon: Icon(Icons.menu),
+          iconSize: 30,
+          color: Colors.white,
+          onPressed: () {},
+        ),
+        title: Text(
+          "Message",
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        ),
+        elevation: 0.0);
   }
 }

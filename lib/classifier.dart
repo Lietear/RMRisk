@@ -5,7 +5,7 @@ import 'package:tflite_flutter/tflite_flutter.dart';
 
 class Classifier {
   // name of the model file
-  final _modelFile = 'text_classification.tflite';
+  final _modelFile = 'model.tflite';
   final _vocabFile = 'text_classification_vocab.txt';
 
   // Maximum length of sentence

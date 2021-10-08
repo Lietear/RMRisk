@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rmfilter/constants.dart';
-import 'package:rmfilter/screen/massage/massage_screen.dart';
+import 'package:rmfilter/screen/massage/body_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -38,7 +37,7 @@ class WelcomeScreen extends StatelessWidget {
                   onPressed: () => Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => MassageSCreen(),
+                          builder: (context) => BodyScreen(),
                         ),
                       ),
                   child: Row(
@@ -53,7 +52,7 @@ class WelcomeScreen extends StatelessWidget {
                                   .withOpacity(0.8),
                             ),
                       ),
-                      SizedBox(width: kDefaultPadding / 4),
+                      SizedBox(width: 10),
                       Icon(
                         Icons.arrow_forward_ios,
                         size: 16,
